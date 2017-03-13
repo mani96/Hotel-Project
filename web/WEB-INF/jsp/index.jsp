@@ -5,7 +5,6 @@
 
 <head>
     <%@include file="includes/header.jsp" %>
-
 </head>
 
 <body>

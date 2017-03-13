@@ -16,7 +16,7 @@ public class Room {
     private boolean TV;
     private boolean WiFi;
     private double price;
-
+    
     public Room() {}
     
     public Room(int roomNumber, int packageID, int guests, boolean Fridge, boolean TV, boolean WiFi, double price) {
