@@ -9,12 +9,14 @@
 </head>
 
 <body>
- 
+ <!---------------------------navigation + slider--------------------->
     <%@include file="includes/navigation.jsp" %>
 	<!-----------------------------------------check form-------------------------------->
         <%@include file="includes/checkAvailability.jsp" %>
-	<!--------------------------------------------------------------------------------------->
+	<!---------------------------------Gallery + Map------------------------------------------------------>
         <%@include file="includes/GalleryMap.jsp" %>
+        
+        <!-------------------footer------------------------>
     <div class="footer-clean">
         <footer>
       <%@include file="includes/Footer.jsp" %>
