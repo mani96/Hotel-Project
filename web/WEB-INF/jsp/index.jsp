@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/bootstrap/css/homeStyle.css" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/homeStyle.css" />
 	<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
          rel = "stylesheet">
       <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -178,7 +178,7 @@
    
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/js/script.min.js"></script>
 	<script>
 	$(document).ready(function(){
 	//alert($(".select_room").val());

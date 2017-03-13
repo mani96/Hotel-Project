@@ -10,5 +10,5 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(dropdown.png) 96% / 15% no-repeat #eee;
+  background: url('../../assets/img/dropdown.png') 96% / 15% no-repeat #eee;
 }
