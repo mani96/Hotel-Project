@@ -20,7 +20,8 @@ public class index {
     @RequestMapping(value = {"home","index"})
     public ModelAndView HomePage(ModelAndView mv){
         mv = new ModelAndView("index");
-        //
+        //i want option list for showing rooms types
+        //then i will send ajax request to "checkAvailabale.htm"
         return mv;
     }
 }

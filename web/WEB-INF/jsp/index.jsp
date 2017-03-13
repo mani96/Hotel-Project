@@ -78,6 +78,7 @@
 		   <div class="col-3 col-md-3">
 		   <div class="input-group date mg-check-in">
 							<div class="input-group date mg-check-in">
+                   
 			<div class="input-group-addon"><i class="fa fa-calendar"></i></div>
 			<input type="text" class="form-control" id="datepicker1" placeholder="Check-In Date">
 			</div>
