@@ -12,17 +12,18 @@
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav">
-                    <li role="presentation"><a href="#intro">Home. </a></li>
-                    <li role="presentation"><a href="#">Case Studies.</a></li>
-                    <li role="presentation"><a href="#">Works. </a></li>
-                    <li role="presentation"><a href="#">About. </a></li>
-                    <li role="presentation"><a href="#">Contact. </a></li>
+                    <li role="presentation"><a href="#slider">Home. </a></li>
+                    <li role="presentation"><a href="#">Gallery</a></li>
+                    <li role="presentation"><a href="#">About</a></li>
+                    <li role="presentation"><a href="#">Contact</a></li>
+                     <li role="presentation"><a href="#">Registration</a></li>
+                    <li role="presentation"><a href="#" data-toggle="modal"   data-target="#login">Login</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 	
-	
+<div id="slider">	
     <div class="carousel slide" data-ride="carousel" id="carousel-1">
         <div class="carousel-inner" role="listbox">
             <div class="item active"><img src="assets/img/1.jpg" alt="Slide Image"></div>
@@ -40,3 +41,4 @@
 			<li data-target="#carousel-1" data-slide-to="2"></li>
         </ol>
     </div>
+</div>

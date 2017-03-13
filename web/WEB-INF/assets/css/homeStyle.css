@@ -12,3 +12,8 @@ select {
   appearance: none;
   background: url('../../assets/img/dropdown.png') 96% / 15% no-repeat #eee;
 }
+#formAdmin{
+    background: yellow;
+    height: 50px;
+    width: 50px;
+}

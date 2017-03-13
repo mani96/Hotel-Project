@@ -1,5 +1,10 @@
-<%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%-- 
+    Document   : index
+    Created on : 13-Mar-2017, 4:43:22 PM
+    Author     : manvir
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
@@ -11,6 +16,8 @@
 <body>
  <!---------------------------navigation + slider--------------------->
     <%@include file="includes/navigation.jsp" %>
+    <!------------login-form------------------>
+     <%@include file="includes/Login.jsp" %>
 	<!-----------------------------------------check form-------------------------------->
         <%@include file="includes/checkAvailability.jsp" %>
 	<!---------------------------------Gallery + Map------------------------------------------------------>
