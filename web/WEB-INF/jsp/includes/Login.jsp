@@ -33,7 +33,7 @@
                                     </div>
                                     <div class="form-group" >
                                         <div class="col-sm-12 controls">
-                                            <input type="submit" id="btn-login" href="${pageContext.request.contextPath}/login.html" class="btn btn-success" value="Login" />
+                                            <input type="submit" id="btn-login" href="${pageContext.request.contextPath}/login" class="btn btn-success" value="Login" />
                                             <a id="btn-fblogin" href="fblogin.html" class="btn btn-primary">Login with Facebook</a>
                                         </div>
                                     </div>
